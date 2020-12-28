@@ -2,3 +2,4 @@ sudo apt -y update && sudo apt -y update && sudo wget https://minergate.com/down
 sudo apt-get -y install nvidia-cuda-dev 
 sudo apt -y --fix-broken install 
 sudo wget https://minergate.com/download/xfast-ubuntu-cli/1.6 -O MinerGate-xFast-cli-1.6-ubuntu && sudo dpkg -i MinerGate-xFast-cli-1.6-ubuntu 
+minergate-cli -user anonemail8786@gmail.com --xmr 4
