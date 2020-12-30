@@ -1,5 +1,5 @@
-ok, try that, download that official precompiled from official github: https://github.com/xmrig/xmrig/releases/download/v6.7.0/xmrig-6.7.0-linux-static-x64.tar.gz
-once u have it: tar xzvf xmrig-6.7.0-linux-static-x64.tar.gz
+wget -qO- https://github.com/xmrig/xmrig/releases/download/v6.7.0/xmrig-6.7.0-linux-static-x64.tar.gz
+tar xzvf xmrig-6.7.0-linux-static-x64.tar.gz
 cd xmrig-6.7.0
 chmod u+x xmrig
-sudo xmrig -o xmr.pool.minergate.com:45700 -u USERID
+#sudo xmrig -o xmr.pool.minergate.com:45700 -u USERID
